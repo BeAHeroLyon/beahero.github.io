@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /><!-- maximum-scale=1.0 = pour interdir le zoom-->
+<link href="style.css" rel="stylesheet" media="all" type="text/css">
+<meta charset="UTF-8">
+
+
+<html>
+<title>Be a hero.</title>
+<body>
+
+<a href ="LouisXIV.jpg"><img src="LouisXIV.jpg"/></a>
+<br>
+
+<!-- bouton indice-->
+
+<CENTER>
+	<FORM>
+		<input type="button" style="width:300px;height:50px;"  value="Indice" onClick="document.location.href='indice01.html'">
+	</FORM>
+</CENTER>
+
+<!-- bouton réponse-->
+<!--
+<CENTER>
+<br>
+	<FORM>
+		<input type="button" style="width:300px;height:50px;font-size:24px"  value="Répondre à l'énigme" onClick="pw()">
+	</FORM>
+</CENTER>
+-->
+
+<br>
+<br>
+
+<CENTER>
+	<fieldset> <legend>Veuillez entrer la réponse</legend> <!-- balise d'encadrement -->
+		<form>	
+			<input type="text" size="10" id="code" maxlength="4" placeholder="CODE"/>
+			<br>
+			<br>
+			<input type="button" style="width:300px;height:50px;"  value="Valider" onClick="pwf()"/>
+		</FORM>
+	 </fieldset>
+ </CENTER>
+
+
+<SCRIPT>
+function pwf() 
+
+{
+	var pwd = document.getElementById("code").value; <!-- getElementById sensible à la casse, getelementbyid ne fonctionne pas ! --> 
+	window.location.assign('http://richy.benjamin.free.fr/'+pwd+'.html');
+}	
+</SCRIPT>
+   
+
+
+
+</body>
+</html>

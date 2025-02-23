@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+<link href="../style.css" rel="stylesheet" media="all" type="text/css">
+<meta charset="UTF-8">
+
+<html>
+
+<title>Plaque 02</title>
+
+<body>
+
+<div class="element">
+
+<center>
+	<p>Entrez la réponse de la première énigme pour accéder au contenu de la plaque N°02.</p>
+</center>
+
+<br>
+
+<CENTER>
+	<form>
+<fieldset> <!-- balise d'encadrement -->
+		<legend>Réponse ?</legend>
+		  <input type="text" size="10" id="code" maxlength="4" placeholder="CODE"/>
+	</form>
+
+<br>
+<br>	  
+
+	<FORM>
+		<input type="button" style="width:300px;height:50px;font-size:24px"  value="Valider" onClick="pwf()"/>
+	</FORM>
+
+<SCRIPT>
+function pwf() 
+{
+	var pwd = document.getElementById("code").value; <!-- getElementById sensible à la casse, getelementbyid ne fonctionne pas ! --> 
+	window.location.assign('https://beahero.pagesperso-orange.fr/02/'+pwd+'02.html');
+}	
+</SCRIPT>
+   
+</fieldset>
+</CENTER>
+<br>
+
+<center>
+	<p>Si vous ne comprenez pas de quoi il s'agit ici, prenez le début de l'aventure <a href="https://www.google.fr/maps/place/45%C2%B045'13.1%22N+4%C2%B050'14.9%22E/@45.7547533,4.8352107,1145m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d45.7536409!4d4.8374758"><b>ici</b></a>.</p>
+</center>
+
+</div>
+
+
+</body>
+</html>

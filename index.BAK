@@ -1,0 +1,49 @@
+<html>
+<body>
+<p>Voulez-vous devenir un héro ?</p>
+
+<p>Curieuse invitation, n'est ce pas ? Des milliers de personnes sont passées ici avant vous sans la remarquer. D'autres l'ont aperçu mais parmi elles, seules quelques une ce sont arrêtées. Et très peu ont fait le choix de décoder ce message.</p>
+
+<p>Vous, vous êtes arrivé jusqu'ici. Je vous félicite, vous avez le profil !</p>
+
+<p>Qui suis-je, vous demandez-vous ? </p>
+
+<p>Un bon père de famille pour les siens, un homme redouté pour ses subordonnés, ou encore un milliardaire excentrique pour la presse... </p>
+
+<p>La vie m'a tout donné, amour, puissance, richesse... tout ce que j'ai désiré je l'ai eu. Qui ne rêverait pas de cette vie ? </p>
+
+<p>Pourtant, cette facilité avorte tout désir, toute passion, tout frisson. Finalement, tout m'est devenu insipide et terne. "L’Homme n’est guère fait pour s’accommoder de la pure béatitude" disait monsieur Watzlawick. Une idée m'est alors venue...</p>
+
+<p>C'est là que vous entrez en scène !</p>
+
+<p>Oui, vous venez de pénétrer dans mon jeu. Vous pourriez choisir de couper cours à votre lecture dès maintenant, mais nous savons tous les deux que vous êtes trop curieux pour vous arrêter en si bon chemin.</p>
+
+<p>Je demandais donc si vous vouliez devenir un héro... de toute évidence, puisque vous lisez ces lignes, la perspective vous séduit. Gloire, admiration et respect, voilà le minimum qu'un tel titre peut offrir.</p>
+
+<p>Cependant, comme bien souvent, il n'y a pas de héro sans antagoniste digne de ce nom. Et le méchant de l'histoire... c'est moi.</p>
+
+<p>Je me suis tout offert pour rompre avec l'ennui : parachute, safari, formule 1... mais certaines "experiences" ne se vendent pas. Il s'agit de les produire soi-même. Alors oui, j'ai entrepris de commettre d'innommables atrocités pour le plaisir de la transgression, du danger et de l'adrénaline. Le plus dur était de franchir les barrières morales d'une éducation judéo-chrétienne que je n'ai pas eu de mal à piétiner ensuite. Du reste, je ne crains rien. Ma fortune me rend intouchable. La police et la justice sont facilement corruptibles voyez-vous. </p>
+
+<p>Il n'y a qu'un seul moyen de m'arrêter, et je le met à votre portée. Pourquoi ? Parce que le jeu serait dénué d'intérêt si je demeurais dans cette invulnérabilité qui est la mienne. Je pimente ainsi l'expérience en prenant le risque de m'exposer et de tout perdre !</p>
+
+<p>J'ai dissimulé 10 plaques identiques à celle-ci à travers la ville. </p>
+
+<p>Chacune d'entre elles vous mènera vers un court film vous délivrant un indice pour tenter de sauver ma victime. Personne n'est parvenue à sauver les deux premières, faute de candidat...</p>
+
+<p>Vous ne pourrez accéder à la suivante qu'en ayant trouvé la réponse à l'énigme de la précédente. Même si vous trouvez une de ces plaques au hasard de vos déambulations urbaines, son contenu sera protégé par un mot de passe. </p>
+
+<p>En résolvant la dixième, vous accéderez à mon identité ainsi qu'à un ensemble de preuves accablantes sur mes agissements, et aurez toutes les informations pour délivrer ma proie. Si vous arrivez à temps... Vous n'aurez plus qu'à contacter les médias et je serai pris a mon propre piège.</p>
+
+
+<SCRIPT src="script.js"></SCRIPT>
+
+<!-- bouton -->
+<CENTER>
+	<FORM>
+		<input type="button" style="width:500px;height:100px;font-size:48px"  value="Répondre à l'énigme" onClick="passWord()">
+	</FORM>
+</CENTER>
+
+
+</body>
+</html>

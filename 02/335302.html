@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+<link href="../style.css" rel="stylesheet" media="all" type="text/css">
+<meta charset="UTF-8">
+
+<html>
+<title>Plaque 02</title>
+<body>
+
+
+<CENTER><img src="inconnu.jpg"/></CENTER>
+
+<div class="question">
+<p>Quel est le nom de cet homme ?</p>
+</div>
+<!-- bouton indice-->
+
+<CENTER>
+	<FORM>
+		<input type="button" style="width:300px;height:50px;"  value="Indice" onClick="document.location.href='indice02.html'">
+	</FORM>
+</CENTER>
+
+<br>
+<br>
+
+<CENTER>
+	<fieldset> <legend>Réponse ?</legend> <!-- balise d'encadrement -->
+		<form>	
+			<input type="text" size="10" id="code" maxlength="7" placeholder="NOM"/>
+			<br>
+			<br>
+			<input type="button" style="width:300px;height:50px;"  value="Valider" onClick="pwf()"/>
+		</FORM>
+	 </fieldset>
+ </CENTER>
+
+
+<SCRIPT>
+function pwf() 
+{
+	var pwd = document.getElementById("code").value;
+	var pwd = pwd.toLowerCase(); <!-- mise en minuscule -->
+	<!-- getElementById sensible à la casse, getelementbyid ne fonctionne pas ! --> 
+	window.location.assign('https://beahero.pagesperso-orange.fr/02/'+pwd+'.html');
+}	
+</SCRIPT>
+   
+
+
+
+</body>
+</html>
