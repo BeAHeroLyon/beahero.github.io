@@ -1,0 +1,54 @@
+@font-face:{font-family: "Calibri";src: url('calibri.ttf');}
+
+body {
+	color: #AAAAAA;
+	background-color: #000000;
+	font-family:Calibri;
+}
+
+fieldset {
+	max-width:300px;
+	padding:16px
+}
+
+form {width:auto}
+
+img {
+    max-height: 100%;
+	max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+legend {
+	color: #AAAAAA;
+	background-color: #000000;
+	font-family:calibri;
+	font-size:20px;
+}
+
+input {
+	font-family:calibri;
+	font-size:20px;
+}
+
+.message{
+	margin-top:100px;
+	text-align:center;
+	margin-left:25px;
+	margin-right:25px;
+	font-size:18px;
+}
+
+.question{
+	text-align:center;
+	font-family:calibri;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.element {
+	text-align:center;
+	margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-75%); /* tiré de la moitié de sa propre hauteur */
+}
